@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Clara Monteiro · Estética Avançada & Skincare | São Paulo</title>
+  <meta name="description" content="Clara Monteiro, esteticista especializada em limpeza de pele, rejuvenescimento facial, drenagem linfática e protocolos personalizados. Agende sua avaliação." />
+  <meta property="og:title" content="Clara Monteiro · Estética Avançada" />
+  <meta property="og:description" content="Protocolos de estética personalizados para revelar a sua melhor pele." />
+  <meta property="og:image" content="assets/img/hero.jpg" />
+  <meta name="theme-color" content="#F5EEE6" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌿</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader" id="preloader" aria-hidden="true">
+    <div class="preloader__logo">
+      <span class="preloader__mark">C</span>
+      <span class="preloader__line"></span>
+    </div>
+  </div>
+
+  <!-- Cursor decorativo -->
+  <div class="cursor" id="cursor" aria-hidden="true"></div>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" id="logo-link" aria-label="Clara Monteiro - início">
+        <span class="logo__mark">C</span>
+        <span class="logo__text">
+          <strong>Clara Monteiro</strong>
+          <small>Estética Avançada</small>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Tratamentos</a></li>
+          <li><a href="#resultados" class="nav__link">Resultados</a></li>
+          <li><a href="#pacotes" class="nav__link">Pacotes</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#faq" class="nav__link">Dúvidas</a></li>
+        </ul>
+        <a href="#agendar" class="btn btn--primary btn--sm nav__cta" id="nav-cta">Agendar avaliação</a>
+      </nav>
+
+      <button class="burger" id="burger" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg-shape hero__bg-shape--1"></div>
+      <div class="hero__bg-shape hero__bg-shape--2"></div>
+
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Esteticista · CRBM 12.345</p>
+          <h1 class="hero__title reveal">
+            A sua pele,<br />
+            <em>em sua forma</em><br />
+            mais <span class="hero__title-accent">luminosa.</span>
+          </h1>
+          <p class="hero__text reveal">
+            Protocolos faciais e corporais personalizados, unindo ciência, tecnologia e
+            um toque artesanal para revelar uma beleza natural — sem exageros, com propósito.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#agendar" class="btn btn--primary" id="hero-cta-agendar">
+              Agendar minha avaliação
+              <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#servicos" class="btn btn--ghost" id="hero-cta-servicos">Conhecer tratamentos</a>
+          </div>
+
+          <div class="hero__proof reveal">
+            <div class="avatars">
+              <span style="--c:#d9b8a3">M</span>
+              <span style="--c:#b98a72">J</span>
+              <span style="--c:#8f6a59">A</span>
+              <span style="--c:#c7a27c">+</span>
+            </div>
+            <div>
+              <div class="stars" aria-label="Avaliação 5 de 5">★★★★★</div>
+              <p><strong>4.9</strong> · mais de 1.200 clientes atendidas</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__visual">
+          <div class="hero__arch reveal reveal--scale">
+            <img src="assets/img/hero.jpg" alt="Clara Monteiro, esteticista, em seu estúdio" width="896" height="1200" />
+          </div>
+          <div class="hero__badge-circle" aria-hidden="true">
+            <svg viewBox="0 0 200 200">
+              <defs>
+                <path id="circlePath" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0" />
+              </defs>
+              <text><textPath href="#circlePath">pele saudável · beleza consciente · autocuidado ·</textPath></text>
+            </svg>
+            <span class="hero__badge-icon">✦</span>
+          </div>
+          <div class="floating-card floating-card--1">
+            <span class="floating-card__icon">🌿</span>
+            <div>
+              <strong>Dermocosméticos</strong>
+              <small>veganos & cruelty-free</small>
+            </div>
+          </div>
+          <div class="floating-card floating-card--2">
+            <span class="floating-card__num" data-count="10">0</span><span class="floating-card__plus">+</span>
+            <small>anos de<br />experiência</small>
+          </div>
+        </div>
+      </div>
+
+      <a href="#marquee" class="scroll-hint" aria-label="Rolar para baixo">
+        <span></span>
+      </a>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" id="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Limpeza de Pele</span><i>✦</i>
+        <span>Peeling</span><i>✦</i>
+        <span>Microagulhamento</span><i>✦</i>
+        <span>Drenagem Linfática</span><i>✦</i>
+        <span>Radiofrequência</span><i>✦</i>
+        <span>Design de Sobrancelhas</span><i>✦</i>
+        <span>Hidratação Profunda</span><i>✦</i>
+        <span>Massagem Modeladora</span><i>✦</i>
+        <span>Limpeza de Pele</span><i>✦</i>
+        <span>Peeling</span><i>✦</i>
+        <span>Microagulhamento</span><i>✦</i>
+        <span>Drenagem Linfática</span><i>✦</i>
+        <span>Radiofrequência</span><i>✦</i>
+        <span>Design de Sobrancelhas</span><i>✦</i>
+        <span>Hidratação Profunda</span><i>✦</i>
+        <span>Massagem Modeladora</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ===== SOBRE ===== -->
+    <section class="section about" id="sobre">
+      <div class="container about__grid">
+        <div class="about__images">
+          <div class="about__img about__img--main reveal reveal--left">
+            <img src="assets/img/studio.jpg" alt="Interior do estúdio de estética, minimalista e acolhedor" loading="lazy" />
+          </div>
+          <div class="about__img about__img--small reveal reveal--up">
+            <img src="assets/img/produtos.jpg" alt="Produtos de skincare utilizados nos tratamentos" loading="lazy" />
+          </div>
+          <div class="about__signature reveal">
+            <span>Clara Monteiro</span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Muito prazer</p>
+          <h2 class="section__title reveal">Eu acredito que <em>cuidar da pele</em> é um ato de carinho consigo mesma.</h2>
+          <p class="reveal">
+            Sou Clara Monteiro, esteticista e cosmetóloga formada pela Universidade Anhembi Morumbi,
+            com especializações em estética facial avançada, tecnologias para rejuvenescimento e
+            terapias corporais. Há mais de 10 anos ajudo mulheres e homens a se reconectarem com
+            a própria imagem.
+          </p>
+          <p class="reveal">
+            Meu estúdio foi pensado para ser um refúgio: um espaço silencioso, aconchegante e
+            impecavelmente higienizado, onde cada atendimento começa com escuta e termina com
+            um plano de cuidados feito sob medida para você.
+          </p>
+
+          <ul class="about__list">
+            <li class="reveal"><span>01</span> Avaliação facial com análise de pele detalhada</li>
+            <li class="reveal"><span>02</span> Protocolos 100% personalizados</li>
+            <li class="reveal"><span>03</span> Acompanhamento pós-sessão via WhatsApp</li>
+          </ul>
+
+          <div class="credentials reveal">
+            <div class="credential"><strong>Cosmetologia</strong><small>Anhembi Morumbi</small></div>
+            <div class="credential"><strong>Pós em Estética</strong><small>Avançada · 2018</small></div>
+            <div class="credential"><strong>Certificação</strong><small>Dermaplaning · 2022</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container stats">
+        <div class="stat reveal"><strong data-count="10">0</strong><span>+</span><p>anos de experiência</p></div>
+        <div class="stat reveal"><strong data-count="1200">0</strong><span>+</span><p>clientes atendidas</p></div>
+        <div class="stat reveal"><strong data-count="25">0</strong><span>+</span><p>protocolos exclusivos</p></div>
+        <div class="stat reveal"><strong data-count="98">0</strong><span>%</span><p>retornam para novas sessões</p></div>
+      </div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Tratamentos</p>
+          <h2 class="section__title reveal">Cuidados pensados para <em>cada fase</em> da sua pele</h2>
+          <p class="section__lead reveal">Escolha uma categoria e descubra os protocolos mais procurados do estúdio.</p>
+        </div>
+
+        <div class="tabs reveal" role="tablist" aria-label="Categorias de tratamentos">
+          <button class="tab is-active" role="tab" aria-selected="true" data-tab="facial" id="tab-facial">Facial</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="corporal" id="tab-corporal">Corporal</button>
+          <button class="tab" role="tab" aria-selected="false" data-tab="bemestar" id="tab-bemestar">Bem-estar & Olhar</button>
+          <span class="tabs__indicator"></span>
+        </div>
+
+        <!-- Facial -->
+        <div class="tab-panel is-active" data-panel="facial" role="tabpanel">
+          <div class="services__feature">
+            <img src="assets/img/facial.jpg" alt="Tratamento facial com máscara cremosa" loading="lazy" />
+            <div class="services__feature-text">
+              <span class="tag">Mais procurado</span>
+              <h3>Limpeza de Pele Profunda</h3>
+              <p>Higienização, esfoliação, extração cuidadosa, alta frequência e máscara calmante. Pele renovada, poros desobstruídos e viço imediato.</p>
+              <div class="services__meta"><span>⏱ 90 min</span><span>a partir de <strong>R$ 220</strong></span></div>
+            </div>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="14" /><path d="M13 20c3-5 11-5 14 0" /></svg></div>
+              <h3>Peeling Químico</h3>
+              <p>Renovação celular para manchas, textura irregular e marcas de acne.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 280</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M20 6v28M12 12l16 16M28 12L12 28" /></svg></div>
+              <h3>Microagulhamento</h3>
+              <p>Estímulo de colágeno para firmeza, poros e cicatrizes.</p>
+              <div class="card__foot"><span>75 min</span><strong>R$ 390</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M20 6c6 8 10 13 10 18a10 10 0 0 1-20 0c0-5 4-10 10-18z" /></svg></div>
+              <h3>Hidratação Glow</h3>
+              <p>Ativos hidratantes e LED para uma pele iluminada e com efeito “glass skin”.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 190</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M8 28c6-14 18-14 24 0" /><path d="M14 18l-3-6M20 16V9M26 18l3-6" /></svg></div>
+              <h3>Radiofrequência Facial</h3>
+              <p>Lifting não invasivo que contorna o rosto e suaviza linhas finas.</p>
+              <div class="card__foot"><span>50 min</span><strong>R$ 250</strong></div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Corporal -->
+        <div class="tab-panel" data-panel="corporal" role="tabpanel" hidden>
+          <div class="services__feature">
+            <img src="assets/img/corporal.jpg" alt="Massagem corporal relaxante em maca" loading="lazy" />
+            <div class="services__feature-text">
+              <span class="tag">Assinatura do estúdio</span>
+              <h3>Drenagem Linfática Método Clara</h3>
+              <p>Movimentos suaves e ritmados que reduzem retenção de líquidos, desincham e trazem leveza imediata. Ideal também para pós-operatório.</p>
+              <div class="services__meta"><span>⏱ 60 min</span><span>a partir de <strong>R$ 180</strong></span></div>
+            </div>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M14 6c-4 10 4 18 0 28M26 6c4 10-4 18 0 28" /></svg></div>
+              <h3>Massagem Modeladora</h3>
+              <p>Manobras vigorosas que ativam a circulação e redesenham o contorno.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 170</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><rect x="10" y="10" width="20" height="20" rx="10" /><path d="M4 20h4M32 20h4" /></svg></div>
+              <h3>Radiofrequência Corporal</h3>
+              <p>Combate flacidez e celulite estimulando colágeno de dentro para fora.</p>
+              <div class="card__foot"><span>50 min</span><strong>R$ 230</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M10 30c0-10 20-10 20-20" /><circle cx="10" cy="30" r="3" /><circle cx="30" cy="10" r="3" /></svg></div>
+              <h3>Pós-operatório</h3>
+              <p>Protocolo especializado para uma recuperação mais rápida e confortável.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 200</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M6 24c4-4 8-4 14 0s10 4 14 0M6 16c4-4 8-4 14 0s10 4 14 0" /></svg></div>
+              <h3>Esfoliação & Spa Corporal</h3>
+              <p>Esfoliação com sais e óleos botânicos, seguida de hidratação nutritiva.</p>
+              <div class="card__foot"><span>70 min</span><strong>R$ 210</strong></div>
+            </article>
+          </div>
+        </div>
+
+        <!-- Bem-estar -->
+        <div class="tab-panel" data-panel="bemestar" role="tabpanel" hidden>
+          <div class="services__feature">
+            <img src="assets/img/pele.jpg" alt="Mulher com pele radiante e saudável" loading="lazy" />
+            <div class="services__feature-text">
+              <span class="tag">Ritual</span>
+              <h3>Ritual Facial Relaxante</h3>
+              <p>Massagem facial com gua sha, aromaterapia e máscara de argila. Um momento de pausa que relaxa a musculatura do rosto e devolve o brilho.</p>
+              <div class="services__meta"><span>⏱ 75 min</span><span>a partir de <strong>R$ 240</strong></span></div>
+            </div>
+          </div>
+          <div class="cards">
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M6 22c6-8 22-8 28 0" /><path d="M10 16c5-4 15-4 20 0" /></svg></div>
+              <h3>Design de Sobrancelhas</h3>
+              <p>Visagismo para um olhar harmônico, com ou sem henna.</p>
+              <div class="card__foot"><span>40 min</span><strong>R$ 80</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M6 22c6 6 22 6 28 0" /><path d="M10 26l-2 4M16 28l-1 4M24 28l1 4M30 26l2 4" /></svg></div>
+              <h3>Lash Lifting</h3>
+              <p>Curvatura natural dos cílios por até 8 semanas, sem extensões.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 150</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="6" /><circle cx="20" cy="20" r="13" /></svg></div>
+              <h3>Massagem Relaxante</h3>
+              <p>Óleos aquecidos e pedras quentes para aliviar tensões e estresse.</p>
+              <div class="card__foot"><span>60 min</span><strong>R$ 170</strong></div>
+            </article>
+            <article class="card">
+              <div class="card__icon"><svg viewBox="0 0 40 40"><path d="M20 34V14M20 14c0-6 6-8 10-8 0 6-4 10-10 8zM20 20c0-5-5-7-9-7 0 5 4 8 9 7z" /></svg></div>
+              <h3>Consultoria de Skincare</h3>
+              <p>Montamos juntas a sua rotina ideal de cuidados em casa.</p>
+              <div class="card__foot"><span>45 min</span><strong>R$ 120</strong></div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MÉTODO / PROCESSO ===== -->
+    <section class="section process" id="metodo">
+      <div class="container">
+        <div class="section__head section__head--light">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> O método</p>
+          <h2 class="section__title reveal">Sua jornada em <em>quatro etapas</em></h2>
+        </div>
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Escuta & Avaliação</h3>
+            <p>Conversamos sobre sua rotina, histórico e objetivos. Analiso sua pele com lupa e luz de Wood.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Plano personalizado</h3>
+            <p>Desenho um protocolo com sessões, intervalos e ativos ideais para o seu tipo de pele.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Tratamento</h3>
+            <p>Sessões em ambiente acolhedor, com tecnologia de ponta e materiais descartáveis.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Home care & retorno</h3>
+            <p>Você leva uma rotina de cuidados para casa e acompanhamos sua evolução juntas.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== ANTES E DEPOIS ===== -->
+    <section class="section results" id="resultados">
+      <div class="container results__grid">
+        <div class="results__content">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Resultados reais</p>
+          <h2 class="section__title reveal">Pele que <em>fala por si</em></h2>
+          <p class="reveal">Arraste o controle e veja a diferença de textura, uniformidade e luminosidade após um protocolo de 6 sessões de Hidratação Glow + Peeling suave.</p>
+          <ul class="results__list">
+            <li class="reveal"><strong>-62%</strong><span>manchas e vermelhidão</span></li>
+            <li class="reveal"><strong>+80%</strong><span>hidratação da pele</span></li>
+            <li class="reveal"><strong>6</strong><span>sessões quinzenais</span></li>
+          </ul>
+          <p class="disclaimer reveal">*Imagem ilustrativa. Resultados podem variar de pessoa para pessoa.</p>
+        </div>
+
+        <div class="compare reveal reveal--scale" id="compare">
+          <div class="compare__img compare__img--after">
+            <img src="assets/img/pele.jpg" alt="Depois do tratamento: pele uniforme e luminosa" loading="lazy" />
+          </div>
+          <div class="compare__img compare__img--before" id="compare-before">
+            <img src="assets/img/pele.jpg" alt="Antes do tratamento: pele opaca e sem uniformidade" loading="lazy" />
+          </div>
+          <span class="compare__label compare__label--before">Antes</span>
+          <span class="compare__label compare__label--after">Depois</span>
+          <div class="compare__handle" id="compare-handle">
+            <span>
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l-6 6 6 6M15 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="compare__range" id="compare-range" aria-label="Comparar antes e depois" />
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PACOTES ===== -->
+    <section class="section pricing" id="pacotes">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Pacotes</p>
+          <h2 class="section__title reveal">Investimento em <em>você</em></h2>
+          <p class="section__lead reveal">Resultados duradouros pedem constância. Por isso, criei pacotes com condições especiais.</p>
+        </div>
+
+        <div class="plans">
+          <article class="plan reveal">
+            <h3>Essencial</h3>
+            <p class="plan__desc">Para começar a cuidar com regularidade.</p>
+            <div class="plan__price"><small>R$</small>590<span>/mês</span></div>
+            <ul>
+              <li>2 Limpezas de Pele Profundas</li>
+              <li>1 Hidratação Glow</li>
+              <li>Avaliação facial completa</li>
+              <li>Kit amostras home care</li>
+            </ul>
+            <a href="#agendar" class="btn btn--ghost btn--block" data-plan="Essencial" id="plan-essencial">Quero este</a>
+          </article>
+
+          <article class="plan plan--featured reveal">
+            <span class="plan__ribbon">Favorito das clientes</span>
+            <h3>Renovação</h3>
+            <p class="plan__desc">Protocolo completo de rejuvenescimento.</p>
+            <div class="plan__price"><small>R$</small>1.190<span>/mês</span></div>
+            <ul>
+              <li>2 Microagulhamentos</li>
+              <li>2 Radiofrequências faciais</li>
+              <li>1 Peeling químico</li>
+              <li>Consultoria de skincare</li>
+              <li>Acompanhamento via WhatsApp</li>
+            </ul>
+            <a href="#agendar" class="btn btn--light btn--block" data-plan="Renovação" id="plan-renovacao">Quero este</a>
+          </article>
+
+          <article class="plan reveal">
+            <h3>Corpo Leve</h3>
+            <p class="plan__desc">Para desinchar e modelar o corpo.</p>
+            <div class="plan__price"><small>R$</small>890<span>/mês</span></div>
+            <ul>
+              <li>4 Drenagens Linfáticas</li>
+              <li>2 Massagens Modeladoras</li>
+              <li>1 Esfoliação corporal</li>
+              <li>Avaliação corporal</li>
+            </ul>
+            <a href="#agendar" class="btn btn--ghost btn--block" data-plan="Corpo Leve" id="plan-corpo">Quero este</a>
+          </article>
+        </div>
+        <p class="pricing__note reveal">Parcelamento em até 6x sem juros · Pix com 5% de desconto · Vale-presente disponível 🎁</p>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section testimonials" id="depoimentos">
+      <div class="container">
+        <div class="section__head">
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Depoimentos</p>
+          <h2 class="section__title reveal">O que dizem <em>as clientes</em></h2>
+        </div>
+
+        <div class="slider reveal" id="testimonial-slider">
+          <div class="slider__track">
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Fiz o protocolo de renovação e minha pele nunca esteve tão bonita. A Clara é extremamente cuidadosa e explica cada etapa. O estúdio é um abraço!”</blockquote>
+              <figcaption><span class="testimonial__avatar" style="--c:#c99c82">M</span><div><strong>Mariana Albuquerque</strong><small>Cliente há 3 anos</small></div></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Sofria com acne há anos e já tinha tentado de tudo. Em quatro meses de acompanhamento, minhas marcas clarearam e minha autoestima voltou.”</blockquote>
+              <figcaption><span class="testimonial__avatar" style="--c:#a87b66">J</span><div><strong>Juliana Ferraz</strong><small>Tratamento de acne</small></div></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“A drenagem do pós-operatório foi essencial na minha recuperação. Profissional atenciosa, pontual e com mãos de fada. Recomendo de olhos fechados.”</blockquote>
+              <figcaption><span class="testimonial__avatar" style="--c:#8d6957">A</span><div><strong>Ana Beatriz Lopes</strong><small>Pós-operatório</small></div></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Ganhei uma sessão de presente e virei cliente fiel. A limpeza de pele é a melhor que já fiz — sem dor, sem vermelhidão exagerada e com resultado lindo.”</blockquote>
+              <figcaption><span class="testimonial__avatar" style="--c:#d1a988">R</span><div><strong>Rafael Mendes</strong><small>Limpeza de pele</small></div></figcaption>
+            </figure>
+          </div>
+          <div class="slider__controls">
+            <button class="slider__btn" id="slider-prev" aria-label="Depoimento anterior">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M15 6l-6 6 6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="slider__dots" id="slider-dots"></div>
+            <button class="slider__btn" id="slider-next" aria-label="Próximo depoimento">
+              <svg viewBox="0 0 24 24" width="20" height="20"><path d="M9 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INSTAGRAM ===== -->
+    <section class="section insta" id="instagram">
+      <div class="container">
+        <div class="insta__head">
+          <div>
+            <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Siga no Instagram</p>
+            <h2 class="section__title reveal">@clara<em>monteiro</em>.estetica</h2>
+          </div>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="btn btn--ghost reveal" id="insta-follow">Seguir perfil</a>
+        </div>
+        <div class="insta__grid">
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="insta__item reveal" id="insta-1"><img src="assets/img/facial.jpg" alt="Post: tratamento facial" loading="lazy" /><span>♥ 1.2k</span></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="insta__item reveal" id="insta-2"><img src="assets/img/produtos.jpg" alt="Post: produtos de skincare" loading="lazy" /><span>♥ 980</span></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="insta__item reveal" id="insta-3"><img src="assets/img/pele.jpg" alt="Post: pele radiante" loading="lazy" /><span>♥ 2.4k</span></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="insta__item reveal" id="insta-4"><img src="assets/img/studio.jpg" alt="Post: estúdio" loading="lazy" /><span>♥ 1.7k</span></a>
+          <a href="https://instagram.com" target="_blank" rel="noopener" class="insta__item reveal" id="insta-5"><img src="assets/img/corporal.jpg" alt="Post: drenagem linfática" loading="lazy" /><span>♥ 860</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ ===== -->
+    <section class="section faq" id="faq">
+      <div class="container faq__grid">
+        <div>
+          <p class="eyebrow reveal"><span class="eyebrow__dot"></span> Dúvidas frequentes</p>
+          <h2 class="section__title reveal">Tudo o que você <em>precisa saber</em></h2>
+          <p class="reveal">Não encontrou sua pergunta? Me chame no WhatsApp, respondo pessoalmente. 💬</p>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" class="btn btn--primary reveal" id="faq-whatsapp">Falar com a Clara</a>
+        </div>
+        <div class="accordion">
+          <details class="accordion__item reveal" open>
+            <summary>Preciso fazer avaliação antes do tratamento?</summary>
+            <p>Sim. A avaliação é fundamental para entender seu tipo de pele, histórico e objetivos. Ela é gratuita para quem fecha um pacote e tem duração de cerca de 30 minutos.</p>
+          </details>
+          <details class="accordion__item reveal">
+            <summary>Os procedimentos doem?</summary>
+            <p>A maioria é bastante confortável. Em procedimentos como microagulhamento, utilizamos anestésico tópico para garantir seu bem-estar durante toda a sessão.</p>
+          </details>
+          <details class="accordion__item reveal">
+            <summary>Em quanto tempo vejo resultados?</summary>
+            <p>Alguns tratamentos, como limpeza e hidratação, têm efeito imediato. Protocolos de rejuvenescimento e manchas mostram resultados progressivos a partir da 3ª sessão.</p>
+          </details>
+          <details class="accordion__item reveal">
+            <summary>Posso fazer tratamentos estando grávida?</summary>
+            <p>Sim, alguns! Drenagem linfática, hidratações e limpeza de pele adaptada são seguras na gestação. Ativos e tecnologias específicas são evitados nesse período.</p>
+          </details>
+          <details class="accordion__item reveal">
+            <summary>Qual a política de cancelamento?</summary>
+            <p>Pedimos aviso com no mínimo 24h de antecedência. Assim conseguimos oferecer o horário para outra cliente na lista de espera.</p>
+          </details>
+          <details class="accordion__item reveal">
+            <summary>Quais as formas de pagamento?</summary>
+            <p>Pix (com 5% de desconto), cartões de débito e crédito em até 6x sem juros nos pacotes.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== AGENDAMENTO ===== -->
+    <section class="section booking" id="agendar">
+      <div class="container booking__card">
+        <div class="booking__info">
+          <p class="eyebrow eyebrow--light"><span class="eyebrow__dot"></span> Agende seu horário</p>
+          <h2 class="section__title">Reserve um momento <em>só seu</em></h2>
+          <p>Preencha o formulário e sua mensagem será enviada diretamente para o meu WhatsApp. Retorno em até 2 horas no horário comercial.</p>
+
+          <ul class="contact-list">
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24"><path d="M12 22s7-6.2 7-12a7 7 0 1 0-14 0c0 5.8 7 12 7 12z"/><circle cx="12" cy="10" r="2.5"/></svg></span>
+              <div><strong>Endereço</strong><span>Rua Oscar Freire, 1234 · Sala 52<br />Jardins, São Paulo - SP</span></div>
+            </li>
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+              <div><strong>Horários</strong><span>Seg a Sex · 9h às 20h<br />Sábado · 9h às 15h</span></div>
+            </li>
+            <li>
+              <span class="contact-list__icon"><svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2"/></svg></span>
+              <div><strong>WhatsApp</strong><span>(11) 99999-9999</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form" id="booking-form" novalidate>
+          <div class="form__row">
+            <div class="field">
+              <input type="text" id="f-nome" name="nome" placeholder=" " required />
+              <label for="f-nome">Seu nome</label>
+            </div>
+            <div class="field">
+              <input type="tel" id="f-tel" name="telefone" placeholder=" " required />
+              <label for="f-tel">WhatsApp</label>
+            </div>
+          </div>
+          <div class="field field--select">
+            <select id="f-servico" name="servico" required>
+              <option value="" disabled selected>Selecione</option>
+              <optgroup label="Facial">
+                <option>Limpeza de Pele Profunda</option>
+                <option>Peeling Químico</option>
+                <option>Microagulhamento</option>
+                <option>Hidratação Glow</option>
+                <option>Radiofrequência Facial</option>
+              </optgroup>
+              <optgroup label="Corporal">
+                <option>Drenagem Linfática</option>
+                <option>Massagem Modeladora</option>
+                <option>Radiofrequência Corporal</option>
+                <option>Pós-operatório</option>
+              </optgroup>
+              <optgroup label="Pacotes">
+                <option>Pacote Essencial</option>
+                <option>Pacote Renovação</option>
+                <option>Pacote Corpo Leve</option>
+              </optgroup>
+              <option>Avaliação / Ainda não sei</option>
+            </select>
+            <label for="f-servico" class="is-fixed">Tratamento de interesse</label>
+          </div>
+          <div class="form__row">
+            <div class="field">
+              <input type="date" id="f-data" name="data" placeholder=" " />
+              <label for="f-data" class="is-fixed">Data preferida</label>
+            </div>
+            <div class="field field--select">
+              <select id="f-periodo" name="periodo">
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+              </select>
+              <label for="f-periodo" class="is-fixed">Período</label>
+            </div>
+          </div>
+          <div class="field">
+            <textarea id="f-msg" name="mensagem" rows="3" placeholder=" "></textarea>
+            <label for="f-msg">Conte um pouco sobre sua pele (opcional)</label>
+          </div>
+          <button type="submit" class="btn btn--light btn--block" id="booking-submit">
+            Enviar pelo WhatsApp
+            <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+          <p class="form__feedback" id="form-feedback" role="status"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== MAPA ===== -->
+    <section class="map" aria-label="Localização do estúdio">
+      <iframe
+        title="Mapa do estúdio Clara Monteiro"
+        src="https://www.openstreetmap.org/export/embed.html?bbox=-46.6760%2C-23.5680%2C-46.6640%2C-23.5600&amp;layer=mapnik&amp;marker=-23.5640%2C-46.6700"
+        loading="lazy"></iframe>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--light" id="footer-logo">
+          <span class="logo__mark">C</span>
+          <span class="logo__text"><strong>Clara Monteiro</strong><small>Estética Avançada</small></span>
+        </a>
+        <p>Beleza consciente, ciência e acolhimento em cada detalhe.</p>
+        <div class="socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram" id="social-instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="0.8" fill="currentColor"/></svg></a>
+          <a href="https://tiktok.com" target="_blank" rel="noopener" aria-label="TikTok" id="social-tiktok"><svg viewBox="0 0 24 24"><path d="M14 3v11a3.5 3.5 0 1 1-3.5-3.5M14 3c.5 3 2.5 5 5.5 5"/></svg></a>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener" aria-label="WhatsApp" id="social-whatsapp"><svg viewBox="0 0 24 24"><path d="M4 20l1.3-4A8 8 0 1 1 8 18.7z"/><path d="M9 9.5c0 3 2.5 5.5 5.5 5.5l1-1.5-2-1-1 1a4 4 0 0 1-2-2l1-1-1-2z"/></svg></a>
+        </div>
+      </div>
+      <div>
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#servicos">Tratamentos</a></li>
+          <li><a href="#pacotes">Pacotes</a></li>
+          <li><a href="#faq">Dúvidas</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li>(11) 99999-9999</li>
+          <li>contato@claramonteiro.com.br</li>
+          <li>Rua Oscar Freire, 1234 · Jardins</li>
+        </ul>
+      </div>
+      <div class="footer__news">
+        <h4>Newsletter</h4>
+        <p>Dicas de skincare e ofertas exclusivas, uma vez por mês.</p>
+        <form class="news-form" id="news-form">
+          <input type="email" placeholder="Seu e-mail" aria-label="Seu e-mail" required id="news-email" />
+          <button type="submit" aria-label="Inscrever" id="news-submit">→</button>
+        </form>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <p>© <span id="year"></span> Clara Monteiro Estética. Todos os direitos reservados.</p>
+      <p>CNPJ 00.000.000/0001-00 · Feito com 🤍</p>
+    </div>
+  </footer>
+
+  <!-- WhatsApp flutuante -->
+  <a href="https://wa.me/5511999999999?text=Ol%C3%A1%20Clara!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio." class="wa-float" target="_blank" rel="noopener" aria-label="Conversar no WhatsApp" id="wa-float">
+    <svg viewBox="0 0 32 32" width="28" height="28"><path fill="currentColor" d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7.1a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5 1-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.7 3.7 0 0 0-1.1 2.7 6.4 6.4 0 0 0 1.3 3.4 14.6 14.6 0 0 0 5.6 5c2.1.9 2.9 1 4 .8a3.4 3.4 0 0 0 2.2-1.6 2.8 2.8 0 0 0 .2-1.6c-.1-.1-.3-.2-.6-.3z"/></svg>
+    <span class="wa-float__tip">Fale comigo!</span>
+  </a>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
